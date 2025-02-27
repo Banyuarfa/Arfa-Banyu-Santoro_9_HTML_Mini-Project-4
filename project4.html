@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Project 4</title>
+  </head>
+  <body>
+    <form>
+      <table>
+        <tr>
+          <td><label for="Nama">Nama</label></td>
+          <td>
+            <input
+              type="text"
+              placeholder="Nama belakang"
+              name="Nama"
+              id="Nama-depan"
+            />
+          </td>
+          <td>
+            <input
+              type="text"
+              placeholder="Nama belakang"
+              name="Nama"
+              id="nama-belakang"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="tel">No. Hp</label></td>
+          <td colspan="2">
+            <input type="tel" name="tel" id="tel" placeholder="No. Hp" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">Email</label></td>
+          <td colspan="2">
+            <input type="email" name="email" id="email" placeholder="email" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="gender">Gender</label></td>
+          <td colspan="2">
+            <input type="radio" name="gender" id="pria" />Pria
+            <input type="radio" name="gender" id="wanita" />Wanita
+          </td>
+        </tr>
+        <tr>
+          <td><label for="jenjang">Jenjang</label></td>
+          <td colspan="2" >
+            <select name="jenjang" id="jenjang">
+              <option value="tk">TK</option>
+              <option value="sd">SD</option>
+              <option value="smp">SMP</option>
+              <option value="sma/smk">SMA/SMK</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="hobi">Hobi</label></td>
+          <td colspan="2">
+            <input type="checkbox" name="hobi" id="membaca" />Membaca<input
+              type="checkbox"
+              name="hobi"
+              id="menggambar"
+            />Menggambar<input
+              type="checkbox"
+              name="menulis"
+              id="menulis"
+            />Menulis
+          </td>
+        </tr>
+        <tr>
+          <td><label for="alamat">Alamat</label></td>
+          <td colspan="2">
+            <textarea name="alamat" id="alamat" cols="46" rows="10"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><button type="submit">kirim</button></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
